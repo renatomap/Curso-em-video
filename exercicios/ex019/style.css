@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    font-weight: normal;
+    font-style: normal;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f9f3fc;   
+}
+
+
+h1#titulo-principal {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgba(64, 144, 218, 0.864);
+}
+
+h1.topico {
+    background-color: #efd7fc;
+    font-size: 1.5em;
+    color: rgba(64, 144, 218, 0.864);
+    text-align: center;
+   
+}
+
+.basico {
+    color: rgba(106, 255, 0, 0.645);
+
+}
+
+.intermediario {
+    color: rgba(255, 174, 0, 0.645);
+
+}
+
+.avancado {
+    color: rgba(255, 0, 0, 0.645);
+
+}
+
+p {
+    color: rgb(14, 14, 14);
+}
