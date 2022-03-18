@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: greenyellow;
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(253, 253, 253);
+            padding: 10px;
+            margin: 10px;
+            color: rgb(5, 5, 5);
+            border-radius: 10px 0px;
+            box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.486);
+        }
+
+        nav {
+            background-color: rgb(189, 187, 187);
+            border-radius: 2px;
+            text-align: right;
+            padding-right: 10px;
+            box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.493);;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        a:hover {
+            color: rgb(255, 255, 255);
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+
+            margin: 10px;
+
+            padding: 11px; 
+            
+            border-radius: 0px 10px;
+            box-shadow: 4px 2px 3px rgba(0, 0, 0, 0.486);
+        }
+
+        article {
+            background-color: rgb(194, 194, 194);
+        }
+
+        article > h2 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        article > p {
+            text-indent: 25px;
+            text-align: justify;
+            padding: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(129, 129, 129);
+            text-align: right;
+            padding-right: 30px;
+        }
+
+        footer {
+            background-color: black;
+            margin: auto;
+            text-align: center;
+            padding: 5px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Esqueleto de Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Assuntos da Semana</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis magnam vel minima molestias odit tempora iusto, doloremque possimus natus maiores dolorum est? Aliquam quidem mollitia, placeat voluptate perferendis doloribus ipsa!</p>
+                <aside>
+                    Autor: Jubileu
+                </aside>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias da Semana</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores tenetur aliquid rem magnam libero nulla minima explicabo error eius iste quisquam dolore alias reiciendis ut sequi fugiat, amet expedita fugit!</p>
+                <aside>
+                    Autora: Ana Cara Linda
+                </aside>
+            </article>
+        </section>
+        <section id="moda">
+            <article>
+                <h2>Tudo de Moda</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, doloribus illo modi dignissimos quaerat sit ipsum beatae expedita totam soluta ad facilis dolorem rem omnis repellat amet dolor? Eos, quia.</p>
+            <aside>
+                Autora Tati: Quebra Tudo 
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Fulano</p>
+    </footer>
+</body>
+</html>
